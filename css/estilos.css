@@ -1,0 +1,115 @@
+/* https://www.mclibre.org/consultar/htmlcss/css/css-fuente.html */
+/* https://abalozz.es/sobre-como-usar-px-em-rem-y-percent-en-responsive-design/  */
+
+* {
+  letter-spacing: .02rem;
+  font-family: 'Open Sans', Nunito, 'sans-serif';
+}
+/* table, tr, td {border: 1px solid black;} */
+
+body {
+  width:45%;
+  height: 99%;
+  background-color: white;
+  border-left: 1px solid #212F3C;
+  border-right: 1px solid #212F3C;
+  margin: 0 auto;
+}
+
+.gris {background-color: white;}
+.peq {
+  font-weight: normal !important; 
+  font-style: normal !important; 
+  font-size: 0.85rem; 
+}
+
+img.bw {filter: grayscale(1);}
+img {
+  vertical-align: middle;
+  /*width: 50px;
+  height:50px;*/
+  cursor: zoom-in;
+  transition: 2s;
+}
+
+img:hover {
+  transform: scale(1.7);
+  transition: 2s;
+}
+
+
+
+a {text-decoration: none;}
+a:hover {cursor: pointer;}
+summary {cursor: pointer;}
+
+table {
+  border-collapse: collapse;
+  vertical-align: middle;
+}
+td {padding-left: 1em;}
+table, tr, tr {border: none;}
+.statusf, .statusp {padding-left: 1.5em; vertical-align: top; text-align: left;}
+.statusp {padding-left: 4em;}
+
+details {margin-top: -2rem;}
+summary {margin-left: 9.5rem;}
+
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6 {
+  display: inline-block; 
+  background-color:#0f1214 ; 
+  border-color: none; 
+  border-radius: 50%; 
+  width: 4rem;
+  height: 4rem;
+}
+.foto1 {
+  width: 5rem;
+  height: 5rem
+}
+.perfil1 {
+  width: 5rem;
+  height: 5rem;
+  text-align: left;
+}
+
+.perfil2, .perfil3, .perfil4, .perfil5, .perfil6 {
+  text-align: right; 
+  padding-right: 0.5rem;
+}
+.family1, .family2, .family3, .family4,.family5,.family6  {
+  font-weight: bold; 
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  color:#212F3C;
+  vertical-align: middle;
+}
+.pareja1, .pareja2, .pareja3, .pareja4, .pareja5, .pareja6 {
+  font-style: oblique; 
+  font-weight: normal; 
+  margin-top: 0rem;
+  vertical-align: middle;
+  font-family: Georgia, serif;
+}
+.perfil1 {text-align: left;}
+.family1 {font-size: 1.3rem; background-color: #212F3C; color: white;}
+.pareja1 {font-size: 1.2rem;}      
+
+.perfil2 {width: 9rem; }
+.family2 {font-size: 1.15rem; background-color: #E5E7E9;}
+.pareja2 {font-size: 1.15rem;}
+
+.perfil3 {width: 13rem;}
+.family3 {font-size: 1.1rem; }
+.pareja3 {font-size: 1.1rem;}
+
+.perfil4 {width: 16rem;}
+.family4 {font-size: 1rem; }
+.pareja4 {font-size: 1rem;}
+
+.perfil5 {width: 19em;}
+.family5 {font-size: 0.9rem; font-weight: normal; }
+.pareja5 {font-size: 0.9rem;}
+

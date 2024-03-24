@@ -1,0 +1,146 @@
+* {
+  font-family: Nunito, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+a, a:visited, a:hover, a:link, a:active {
+  color: yellowgreen;
+  text-decoration: none;
+}
+body {
+  background-color: #4b6474;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin:0;
+  margin-bottom: 0.3rem;
+  text-align:center;
+}
+h1 {
+  font-size: 1.5rem;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.column1, .column2, .column3, .column4 {
+  /* border: 0.5px solid gray; */
+  text-align: center;
+  padding: 0.3rem;
+}
+.column1 {
+  float: left;
+  width: 100%;      
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  font-size:medium;
+}
+
+.column3 {
+  float: left;
+  width: 33%;
+  font-size: small;
+}
+
+.column4 {
+  float: left;
+  width: 24%;
+  font-size: small;
+}
+
+/* Clear floats after the columns */
+.row {
+  font-size: 0.1rem;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.titulo {
+  background-color:#0f1214; 
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.foto0 {
+  width: 9rem;
+  height: 9rem;
+}
+.foto1 {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+
+img {
+  background-color: darkslateblue;
+  border-radius: 50%;
+  vertical-align: middle;
+  cursor: zoom-in;
+  transition: 2s;
+}
+
+figure:hover {
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 10%;
+  transform: scale(1.3);
+  transition: 2s;
+}
+
+figure {
+  padding: 3px;
+  margin: 0px;
+  text-align: center;
+}
+
+figcaption {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 0.3em;
+}
+
+.vida {
+  font-size: 0.8rem;
+}
+
+strong {
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+.exp {
+  letter-spacing: 0.15em;
+}
+
+a {
+  text-decoration: none;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .container {
+    width: 99%;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  .column2 {
+    font-size:small;
+  }
+  .column3, .column4 {
+    width: 45%;
+    max-width: 45%;
+  }
+  .foto0 {
+  width: 6rem;
+  height: 6rem;
+  }
+  .foto1 {
+  width: 4rem;
+  height: 4rem;
+  }
+
+}

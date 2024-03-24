@@ -1,0 +1,103 @@
+* { 
+  font-size:medium; 
+  margin: 0; 
+  padding: 0; 
+  font-family: Nunito, 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box; 
+  font-size: 16px;
+}
+
+body {background-color: #222;}
+.contenedor {
+  width: 70%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: white;
+  padding: 3px;
+  padding-top: 20px;
+}
+
+a {text-decoration:none; /*border-bottom: #4b6474 1px dotted;*/} 
+a:hover {font-size: 1.1rem; }
+
+details {margin:0; padding:0; width: 100%;}
+summary {margin-left: 4.3rem; margin-top: -0.75rem; margin-bottom: 1rem;}
+
+.foto { width: 3.5rem; height: 3.5rem;}
+.foto1 {width: 4.5rem; height: 4.5rem;}
+
+.foto, .foto1 {
+  border-radius: 50%;
+  vertical-align: middle;
+  cursor: zoom-in;
+  transition: 1s;
+}
+
+.foto:hover, .foto1:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+.f1, .f2, .f3, .f4, .f5, .f6 {background-color: turquoise;}
+.fp1, .fp2, .fp3, .fp4, .fp5, .fp6 {background-color: yellowgreen;}
+
+.nivel1 {
+  display: grid;
+  grid: "f g"
+  "n m"
+  "d e";
+  grid-template-columns: 50% 50%;
+  vertical-align: top;
+  margin-bottom: 2em;
+  text-align: center;
+}
+.imagen1 {grid-area: f; text-align: center; }
+.imagen1a {grid-area: g; text-align: center; }
+.fam1    {grid-area: n; }
+.fam1a    {grid-area: m; }
+.fam1, .fam1a {font-weight: 700; font-size: 1.2rem; margin: 0.5em 0; }
+.date1   {grid-area: d; }
+.date1a   {grid-area: e; }
+.date1, .date1a {font-size: smaller; font-size: 0.85em; padding-left: 1em;}
+
+.nivel2, .nivel3, .nivel4, .nivel5, .nivel6 {
+  display: grid;
+  grid: "s f n n"
+        "s f d d";
+
+  grid-template-columns: auto 4rem 1fr 1rem;
+  grid-template-rows: auto 1fr;
+  margin-bottom: 0.5rem;
+}
+
+.m2 {display: inline-block; width: 1em;}
+.m3 {display: inline-block; width: 2.5em;}
+.m4 {display: inline-block; width: 5em;}
+.m5 {display: inline-block; width: 7.5em;}
+.m6 {display: inline-block; width: 10em;}
+
+.margen    {grid-area: s; }
+
+.imagen    {grid-area: f; text-align: left; padding-right: 1em;}
+.fam2      {grid-area: n; background-color: #d3f5f2; }
+.principal {font-weight: bold;}
+.family    {grid-area: n; font-size: 0.9em; vertical-align: bottom; font-weight: 500;}
+.pareja    {grid-area: n; font-size: 0.9em; font-style:italic ; vertical-align: bottom; color: #4b6474;}
+.dates     {grid-area: d; font-size: smaller; vertical-align: bottom; color: #aaa;padding-left: 1em;}
+.mostrar   {grid-area: m; background-color: yellowgreen; text-align: right;}
+
+
+@media screen and (max-width: 800px) {
+  .contenedor {width: 98%;}
+  .dates, .date1, .date1a {font-size: 0.7em;}
+  .fam1, .fam1a {font-size: 1em;}
+  .fam2 {font-size: 0.9em;}
+}
+
+@media screen and (max-width: 360px) {
+  .contenedor {width: 97%;}
+  .dates, .date1, .date1a {font-size: 0.7em;}
+  .fam1, .fam1a {font-size: 0.95em;}
+  .fam2, .pareja, .family {font-size: 0.75em;}
+  
+}
