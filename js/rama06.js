@@ -1,0 +1,21 @@
+//constructor(id, nivel, tipo, status, nombres, apellidos, sexo, nace, muere, detalle, url, foto)
+const integrantes = [
+  new Familiar('06', 1, 'f', 'c', 'Myriam Asumpta', 'de la Torre Rincón', 'f', '15-agosto', '28-marzo', true, '-', false), 
+  new Familiar('06a', 1, 'p', 'c', 'Edgar', 'Fuenmayor', 'm', '', '08-junio', false, '-', false), 
+  new Familiar('061', 2, 'f', 'd', 'Edgar José', 'Fuenmayor de la Torre', 'm', '', '', true, '-', false), 
+  new Familiar('061a', 2, 'p', 'd', 'Zulay', 'Bonalde', 'f', '', '', false, '-', false), 
+  new Familiar('0611', 3, 'f', 'c', 'Carolina Sofía', 'Fuenmayor Bonalde', 'f', '', '', true, '-', false), 
+  new Familiar('0611a', 3, 'p', 'c', 'Rubén', 'Segura', 'm', '', '', false, '-', false), 
+  new Familiar('06111', 4, 'f', 's', 'María Victoria', 'Segura Fuenmayor', 'f', '', '', false, '-', false), 
+  new Familiar('06112', 4, 'f', 's', 'Andrés', 'Segura Fuenmayor', 'm', '', '', false, '-', false), 
+  new Familiar('0612', 3, 'f', 's', 'Mariafernanda', 'Fuenmayor Bonalde', 'f', '', '', false, '-', false), 
+  new Familiar('062', 2, 'f', 's', 'Eduardo', 'Fuenmayor de la Torre', 'm', '', '', false, '-', false), 
+  new Familiar('063', 2, 'f', 's', 'Víctor Emiro', 'Fuenmayor de la Torre', 'm', '', '', false, '-', false), 
+  new Familiar('064', 2, 'f', 'd', 'Morella Sofía', 'Fuenmayor de la Torre', 'f', '18-julio', '', true, '-', '.png'), 
+  new Familiar('064a', 2, 'p', 'd', '---', '', 'm', '', '', false, '-', false), 
+  new Familiar('0641', 3, 'f', 's', 'Adriana Sofía', '', 'f', '', '', false, '-', false), 
+  new Familiar('065', 2, 'f', 'd', 'Ricardo', 'Fuenmayor de la Torre', 'm', '', '', true, '-', false), 
+  new Familiar('065a', 2, 'p', 'd', 'Marcella', 'Macrobio', 'f', '', '', false, '-', false), 
+  new Familiar('0651', 3, 'f', 's', 'Valentina', 'Fuenmayor Macrobio', 'f', '', '', false, '-', false),  
+  new Familiar('0652', 3, 'f', 's', 'Víctor', 'Fuenmayor Macrobio', 'm', '', '', false, '-', false), 
+  ]
